@@ -1,0 +1,66 @@
+# ================================
+# Site settings
+# ================================
+title: 法政大学 小金井オープンキャンパススタッフ
+description: >
+  法政大学 小金井キャンパスのオープンキャンパススタッフ公式サイト。
+  活動紹介・各チーム案内・イベント情報・新規スタッフ募集を掲載しています。
+
+lang: ja
+timezone: Asia/Tokyo
+
+# GitHub Pages URL
+url: "https://OCactivity.github.io"
+baseurl: "/2026-koganei-ocstaff"
+
+# ================================
+# Build settings
+# ================================
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-sitemap
+
+# ================================
+# Exclude files
+# ================================
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - .gitignore
+
+# ================================
+# Defaults
+# ================================
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
+
+# ================================
+# SEO / Meta
+# ================================
+keywords:
+  - 法政大学
+  - 小金井キャンパス
+  - オープンキャンパス
+  - オープンキャンパススタッフ
+  - 学生スタッフ
+  - 学生団体
+  - 小金井オープンキャンパス
+  - 法政大学小金井オープンキャンパス
+  - koganei OC
+  - koganei OC staff
+  - OC staff
+  - オーキャンスタッフ
+
+# ================================
+# GitHub Pages
+# ================================
+github:
+  is_project_page: true
+
