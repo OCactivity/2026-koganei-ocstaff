@@ -8,6 +8,69 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="役職別挨拶の概要ページです。">
 <link rel="stylesheet" href="css/style.css">
+<style>
+/* 役職別挨拶セクション - すべて中央に集める */
+
+/* list-normalの基本設定 */
+.list-normal {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list-normal .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+/* h4見出し - 中央揃え */
+.list-normal h4 {
+    order: 1;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    color: #f82931;
+    font-weight: 500;
+    width: 100%;
+}
+
+/* 画像 - 中央揃え */
+.list-normal .image {
+    order: 2;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem !important;
+}
+
+.list-normal .image img {
+    max-width: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* テキストブロック - 中央揃え */
+.list-normal .text {
+    order: 3;
+    text-align: left;
+    width: 100%;
+}
+
+.list-normal .text h4 {
+    display: none;
+}
+
+.list-normal .text p {
+    text-align: left;
+}
+</style>
 </head>
 
 <body>
@@ -70,9 +133,9 @@
 <div class="list-normal">
 
 <div class="list blur" id="gre1">
+<h4>代表挨拶</h4>
 <figure class="image"><img src="images/michi.jpg" alt=""></figure>
 <div class="text">
-<h4>代表挨拶</h4>
 <p>こんにちは、はじめまして！！<br>
 小金井オープンキャンパススタッフ代表のみちです！<br>
 私たちオープンキャンパススタッフは、法政大学小金井キャンパスの理系ならではの魅力や、学生のリアルな声を高校生の皆さんにお届けすることを大切に活動しています。「法政大学っていいな」「ここで学んでみたいな」と思ってもらえるよう、スタッフ一同全力で準備しています！<br>
@@ -81,10 +144,10 @@
 </div>
 </div>
 
-<div class="list blur reverse" id="gre2">
+<div class="list blur" id="gre2">
+<h4>人事部長挨拶</h4>
 <figure class="image"><img src="images/reichi.jpg" alt=""></figure>
 <div class="text">
-<h4>人事部長挨拶</h4>
 <p>こんにちは、人事部長のれいちです！<br>
 オープンキャンパススタッフに興味を持っていただきありがとうございます！！！<br>
 この団体はいろんな学年、学科を超えて仲良くなれる機会がたくさんあります！<br>
@@ -96,9 +159,9 @@
 </div>
 
 <div class="list blur" id="gre3">
+<h4>幹事部長挨拶</h4>
 <figure class="image"><img src="images/KB.jpg" alt=""></figure>
 <div class="text">
-<h4>幹事部長挨拶</h4>
 <p>こんにちは、幹事部長のこばかいです。<br>
 幹事部は、オープンキャンパススタッフの普段の活動とはひと味違う、「ワイワイ楽しい時間」を生み出す部門です。新入生が先輩や同期と一気に仲良くなれる新歓BBQ、学年を超えて盛り上がる合宿、団体として参加する学園祭の出展など、思い出に残るイベントを数多く企画・運営しています。さらに、夏のレクリエーションや4年生の送り出しなど、節目ごとの行事を通して「この団体に入ってよかった」と感じられる時間づくりを大切にしています。<br>
 一方で、イベントの裏側では会場や宴会場の手配、予算管理、会計報告、監査など、欠かすことのできない役割も担当しています。表に立つ機会は多くありませんが、幹事部が準備を重ねることで、みんなが安心して思いきり楽しめる環境が整っています。楽しさを全力でつくりながら、団体を足元から支える――それが幹事部です。イベントが好きな人も、人を支えるのが好きな人も、きっとやりがいを感じられる部署です。<br>
@@ -106,10 +169,10 @@
 </div>
 </div>
 
-<div class="list blur reverse" id="gre4">
+<div class="list blur" id="gre4">
+<h4>HP開発者挨拶</h4>
 <figure class="image"><img src="images/TK.png" alt=""></figure>
 <div class="text">
-<h4>HP開発者挨拶</h4>
 <p>こんにちは、このHP開発者のたくみです。<br>
 ここでは、小金井オープンキャンパススタッフの活動を<br>
 「情報」ではなく「体験」として届けることを目指して構築しました。<br>
@@ -120,7 +183,6 @@
 このHPが、小金井オープンキャンパススタッフを知る皆様にとっての"原点"になれば幸いです。<br>
 ぜひ、私たちと一緒に小金井オープンキャンパスを盛り上げていきましょう！
 </p>
-
 </div>
 </div>
 
