@@ -4,73 +4,36 @@
 <link rel="icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta charset="UTF-8">
-<title>小金井OCgreetings</title>
+<title>小金井OCrecruitment</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="役職別挨拶の概要ページです。">
+<meta name="description" content="採用に関する情報を記載しています。">
 <link rel="stylesheet" href="css/style.css">
+
 <style>
-/* 役職別挨拶セクション - すべて中央に集める */
-
-/* list-normalの基本設定 */
-.list-normal {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.list-normal .list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 5vw;
-}
-
-/* h4見出し - 中央揃え */
-.list-normal h4 {
-    order: 1;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 1.3rem;
-    color: #f82931;
-    font-weight: 500;
+.image img {
+    max-width: 100% !important;
     width: 100%;
-}
-
-/* 画像 - 中央揃え */
-.list-normal .image {
-    order: 2;
+    height: auto;
     margin: 0 !important;
     padding: 0 !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 2rem !important;
-}
-
-.list-normal .image img {
-    max-width: 80%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: block;
 }
 
-/* テキストブロック - 中央揃え */
-.list-normal .text {
-    order: 3;
-    text-align: left;
+.image {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.list-free .image {
+    overflow: hidden;
+}
+
+.list-free .image img {
+    max-width: 100%;
     width: 100%;
 }
-
-.list-normal .text h4 {
-    display: none;
-}
-
-.list-normal .text p {
-    text-align: left;
-}
 </style>
+
 </head>
 
 <body>
@@ -132,71 +95,157 @@
 
 <div id="container">
 
-<div id="contents" class="bg2">
+<div id="contents" class="bg1">
 
 <main>
 
 <section>
 
-<h2>役職別挨拶<span class="small">greetings</span></h2>
+<h2>各チームが求める人物像<span class="small">The ideal candidate for each team</span></h2>
 
-<div class="list-normal">
+<div class="list-free blur" id="CM">
 
-<div class="list blur" id="gre1">
-<h4>代表挨拶</h4>
-<figure class="image"><img src="images/michi.jpg" alt=""></figure>
-<div class="text">
-<p>こんにちは、はじめまして！！<br>
-小金井オープンキャンパススタッフ代表のみちです！<br>
-私たちオープンキャンパススタッフは、法政大学小金井キャンパスの理系ならではの魅力や、学生のリアルな声を高校生の皆さんにお届けすることを大切に活動しています。「法政大学っていいな」「ここで学んでみたいな」と思ってもらえるよう、スタッフ一同全力で準備しています！<br>
-当日は、授業や研究の話はもちろん、学生生活のリアルな一面や「実際どうなの？」といった素朴な疑問にも、学生目線でお答えします。実際に訪れてみなければわからないキャンパスの空気感をぜひ体感してください！<br>
-そしてぜひ、法政大学小金井オープンキャンパススタッフと一緒に、ここでしかできない楽しい思い出を作りましょう！皆さんが笑顔で帰れる一日になるよう、スタッフ一同お待ちしています！</p>
-</div>
-</div>
+<h3 class="order1">CMチーム</h3>
 
-<div class="list blur" id="gre2">
-<h4>人事部長挨拶</h4>
-<figure class="image"><img src="images/reichi.jpg" alt=""></figure>
-<div class="text">
-<p>こんにちは、人事部長のれいちです！<br>
-オープンキャンパススタッフに興味を持っていただきありがとうございます！！！<br>
-この団体はいろんな学年、学科を超えて仲良くなれる機会がたくさんあります！<br>
-自分自身あまり社交的な性格ではありませんが、今ではプライベートでもよく遊びに行くほど仲がいいです!<br>
-なんといっても、メンバー全員でオープンキャンパスを作り上げることは、他のサークルにはない魅力です。高校生に対してこの小金井キャンパスをどのようにしたら興味を持ってもらえるのか考えることはなかなか難しいですが、オープンキャンパスが終わった時の達成感は最高です！<br>
-少しでも興味を持ってもらえたら、このホームページに活動内容など詳しく書いてあるのでぜひ読んでみてください。そして、応募フォームからエントリーをお願いします！<br>
-たくさんのご応募お待ちしております！！！</p>
-</div>
-</div>
-
-<div class="list blur" id="gre3">
-<h4>幹事部長挨拶</h4>
-<figure class="image"><img src="images/KB.jpg" alt=""></figure>
-<div class="text">
-<p>こんにちは、幹事部長のこばかいです。<br>
-幹事部は、オープンキャンパススタッフの普段の活動とはひと味違う、「ワイワイ楽しい時間」を生み出す部門です。新入生が先輩や同期と一気に仲良くなれる新歓BBQ、学年を超えて盛り上がる合宿、団体として参加する学園祭の出展など、思い出に残るイベントを数多く企画・運営しています。さらに、夏のレクリエーションや4年生の送り出しなど、節目ごとの行事を通して「この団体に入ってよかった」と感じられる時間づくりを大切にしています。<br>
-一方で、イベントの裏側では会場や宴会場の手配、予算管理、会計報告、監査など、欠かすことのできない役割も担当しています。表に立つ機会は多くありませんが、幹事部が準備を重ねることで、みんなが安心して思いきり楽しめる環境が整っています。楽しさを全力でつくりながら、団体を足元から支える――それが幹事部です。イベントが好きな人も、人を支えるのが好きな人も、きっとやりがいを感じられる部署です。<br>
-皆さんと一緒にこのOCを盛り上げられることを楽しみにしています！</p>
-</div>
-</div>
-
-<div class="list blur" id="gre4">
-<h4>HP開発者挨拶</h4>
-<figure class="image"><img src="images/TK.png" alt=""></figure>
-<div class="text">
-<p>こんにちは、このHP開発者のたくみです。<br>
-ここでは、小金井オープンキャンパススタッフの活動を<br>
-「情報」ではなく「体験」として届けることを目指して構築しました。<br>
-<br>
-設計・実装の段階から、誰が見ても分かりやすく、<br>
-それでいてスタッフの魅力が自然に伝わるUI/UXを意識しています。<br>
-<br>
-このHPが、小金井オープンキャンパススタッフを知る皆様にとっての"原点"になれば幸いです。<br>
-ぜひ、私たちと一緒に小金井オープンキャンパスを盛り上げていきましょう！
+<div class="text order2">
+<h4>CMチームの求める人物像</h4>
+<p>企画から撮影、編集までを自分たちの手で作り上げる映像制作チームです。<br><br>
+応募対象者：<br>
+• 企画から編集まで「自分たちの手で作り上げたい」という熱意がある人。<br>
+• パンフレットには載っていない、学生ならではの「リアルな魅力」を切り取ろうとする探究心がある人。<br>
+• 経験の有無を問わず、映像制作に興味を持ち、技術や知識を楽しく吸収できる人。<br>
 </p>
 </div>
+
+<div class="image w2 order3">
+<img src="images/CM.jpg" alt="">
 </div>
 
 </div>
+<!--/.list-free-->
+<div class="bg3 mb5vw">
+
+<div class="list-free blur" id="CT">
+
+<h3 class="order1">CTチーム</h3>
+
+<div class="text order2">
+<h4>CTチームの求める人物像</h4>
+<p>来場者を連れて学内を案内し、大学生活の魅力を直接伝えるチームです。<br><br>
+応募対象者：<br>
+• 人と話すことが好きで、初対面の来場者とも明るくコミュニケーションが取れる人。<br>
+• 基本的なガイド内容に自分なりの補足やフリートークを加え、オリジナリティを出そうとする意欲がある人。<br>
+• 練習を通して、プレゼンスキルやコミュニケーション能力を磨きたいと考えている人。<br>
+
+</p>
+</div>
+
+<div class="image w2 order3">
+<img src="images/CT.jpg" alt="">
+</div>
+
+</div>
+<!--/.list-free-->
+
+</div>
+<!--/.bg3-->
+
+<div class="list-free blur" id="IS">
+
+<h3 class="order1">ISチーム</h3>
+
+<div class="text order2">
+<h4>ISチームの求める人物像</h4>
+<p>受付や誘導、質問対応に加え、事前準備ではポスター制作やマニュアル作りを通して他チームのサポートも行います。<br><br>
+応募対象者：<br>
+• 他チームを支える講習会や事前準備など、仲間と協力して物事を円滑に進めるのが得意な人。<br>
+• 来場者が最初に接する「OCの顔」として、相手の立場に立った丁寧な案内や気配りができる人。<br>
+• 誘導や質問対応など、その場の状況を判断してテキパキと行動することにやりがいを感じる人。<br>
+
+
+</p>
+</div>
+
+<div class="image w2 order3">
+<img src="images/IS.jpg" alt="">
+</div>
+
+</div>
+<!--/.list-free-->
+
+<div class="bg3 mb5vw">
+
+<div class="list-free blur" id="SC">
+
+<h3 class="order1">SCチーム</h3>
+
+<div class="text order2">
+<h4>SCチームの求める人物像</h4>
+<p>個別相談ブースにて、受験や授業、学生生活の悩みに自分の経験を活かして答えるチームです。<br><br>
+応募対象者：<br>
+• 高校生や保護者の方の不安や悩みをじっくり聞き、一人ひとりの心に寄り添った対応ができる人。<br>
+• 自分の経験を誠実な言葉で伝え、相手の進路選択という大切な場面を支えることに責任を持てる人。<br>
+• 相談のコツを先輩から学び、より伝わりやすい話し方を追求し続けられる人。<br>
+
+</p>
+</div>
+
+<div class="image w2 order3">
+<img src="images/SC.jpg" alt="">
+</div>
+
+</div>
+<!--/.list-free-->
+
+</div>
+<!--/.bg3-->
+
+<div class="list-free blur" id="SK">
+
+<h3 class="order1">SKチーム</h3>
+
+<div class="text order2">
+<h4>SKチームの求める人物像</h4>
+<p>自分たちが作ったオリジナルスライドで、来場者に学科の魅力を伝える発表チームです。<br><br>
+応募対象者：<br>
+• 大勢の前で話すことに挑戦し、自分たちが送っている学生生活の魅力を「伝えたい！」という強い気持ちがある人。<br>
+• スライド作成や発表練習など、本番に向けて粘り強く準備に取り組める人。<br>
+• 高校生の「知りたい」に応え、進路選択の力になりたいというサービス精神を持っている人。<br>
+
+</p>
+</div>
+
+<div class="image w2 order3">
+<img src="images/SK.jpg" alt="">
+</div>
+
+</div>
+
+<div class="bg3 mb5vw">
+
+<div class="list-free blur" id="rec">
+
+<h3 class="order1">応募フォーム</h3>
+
+<div class="text order2">
+<h4>応募フォームについて</h4>
+<p>各チームの求める人物像に合致する方を募集しています。<br>
+応募フォームは<a href="https://forms.gle/koXum4b4wCdci2da7">こちら</a>もしくは、ページ下部にある応募フォームからアクセスしてください。<br><br>
+応募締め切りは2026年4月18日までです。<br><br>
+<div id="counter_wrap"><div id="counter"></div><div><script>let target  = new Date(2026, 3, 18, 23, 59, 0);const countdown = ()=>{const targetObj = document.getElementById("counter");const now = new Date();const differ = target.getTime() - now.getTime();if(differ < 0){targetObj.innerHTML = "新規メンバーの応募は締め切りました。";return false;};const myDay = Math.floor(differ / 1000 / 60 / 60 / 24);const myHour = Math.floor(differ / 1000 / 60 / 60 % 24);const myMin = Math.floor(differ / 1000 / 60 % 60);const mySec = Math.floor(differ / 1000 % 60);const myMsec= Math.floor(differ);targetObj.innerHTML = "新規メンバーの応募締め切りまで" + "<br>" + String(myDay).padStart(2, '0') + '日' + String(myHour).padStart(2, '0') + '時間' + String(myMin).padStart(2, '0') + '分' + String(mySec).padStart(2, '0') +'秒';if(differ < 0){clearInterval(countdown);};};setInterval(countdown, 1);</script></div><style>#counter{display:block; max-width:100%; margin:0 auto; width:700px; padding:20px 15px 20px; color:#111111; background:#CAECF9; text-align:center; font-size:30px; line-height:1.5em; font-weight:bold;}</style></div>
+
+
+</p>
+</div>
+
+<div class="image w2 order3">
+</div>
+
+</div>
+<!--/.list-free-->
+
+</div>
+<!--/.bg3-->
 
 </section>
 
