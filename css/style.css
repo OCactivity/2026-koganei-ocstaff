@@ -575,7 +575,7 @@ main h3 {
 #footermenu {
 	background: var(--primary-color);		/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
 	color: var(--primary-inverse-color);	/*文字色。css冒頭で指定しているprimary-inverse-colorを読み込みます*/
-	font-size: 0.8rem;		/*文字サイズ。*/
+	font-size: 0.6rem;		/*文字サイズ。*/
 	display: flex;			/*直接の子要素を横並びにします*/
 	justify-content: space-between;	/*並びかたの種類の指定*/
 	align-items: flex-start;		/*垂直揃えの指定。上に配置されるように。*/
