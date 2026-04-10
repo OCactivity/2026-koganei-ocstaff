@@ -102,7 +102,7 @@ ul,ol {margin-left: 1.5rem;margin-bottom: 1rem;}
 table {border-collapse:collapse;}
 
 /*画像全般の設定*/
-img {border: none;max-width: 50%;height: auto;margin: 0 auto;display: block;}
+img {border: none;max-width: 100%;height: auto;margin: 0 auto;display: block;}
 
 /*videoタグ
 video {max-width: 100%;}*/
